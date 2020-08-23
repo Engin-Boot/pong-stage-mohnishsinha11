@@ -7,7 +7,7 @@ members to store the coordinates x and y
 which represents position of paddle from top and left,
 height and width of paddle
 and the ball miss counter for the player using the paddle
-and it also consists of method for movement of paddle in verticle direction
+and it also consists of method for movement of paddle in vertical direction
 and method to display the paddle
 and velocity
 

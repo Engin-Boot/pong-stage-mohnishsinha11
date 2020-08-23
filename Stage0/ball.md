@@ -3,7 +3,7 @@
 ## Feature
 
 This module represents the ball and ball have following data members
-coordinates x and y to represent its position w.r.t origin at top and left
+coordinates x and y to represent its position from origin at top left
 height and width of ball
 methods to check collisions
 and to move the ball
