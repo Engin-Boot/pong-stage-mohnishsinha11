@@ -13,20 +13,21 @@ and velocity
 
 ## Acceptance Criteria
 
-### Scenario: to move paddle upwards
+### Scenario: to move paddle upwards with given velocity
 
   Given display and move method for ball and paddle
-  is functioning correctly in pong game 
+  is functioning correctly in pong game
   and velocity of paddle
 
   When the user presses the up button
 
   Then move the paddle upwards with given velocity
 
-### Scenario: to move paddle upwards
+### Scenario: to move paddle downwards with given velocity
 
   Given display and move method for ball and paddle
   is functioning correctly in pong game
+  and velocity of paddle
 
   When the user presses the down button
 
@@ -41,7 +42,7 @@ and velocity
 
   Then increment the 'ball_missed_counter'
 
- ### Scenario: when ball hits the paddle change the direction of ball
+### Scenario: when ball hits the paddle change the direction of ball
 
  Given display and move method for ball and paddle
  is functioning correctly in pong game
@@ -49,4 +50,3 @@ and velocity
  When the paddle hits the ball
 
  Then call the function to change the direction of the ball
- 

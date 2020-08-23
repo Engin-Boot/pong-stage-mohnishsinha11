@@ -16,5 +16,3 @@ and this module declares the winner between the two players
   and 'ball_missed_count' of one player exceeds the threshold value
 
   Then declare one player as the winner which have less 'ball_missed_count'
-
-
