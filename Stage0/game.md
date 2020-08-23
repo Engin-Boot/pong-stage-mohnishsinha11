@@ -12,11 +12,11 @@ and this module declares the winner between the two players
 
   Given start button and two paddles and a ball
   and initially ball is stick to the centre of paddle1
-  
+
   When user presses the start button
-  
+
   Then release the ball from paddle1 and move the ball
-	
+
 ### Scenario: to declare winner
 
   Given pong game is working and threshold value
