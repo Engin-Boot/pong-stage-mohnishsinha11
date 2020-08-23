@@ -8,14 +8,14 @@ and this module declares the winner between the two players
 
 ## Acceptance Criteria
 
-### Scenario: to start the game and initialise the enviornment
+### Scenario: to start the game
 
   Given start button and two paddles and a ball
-  and initially ball is cling to the center of "paddle1"
+  and initially ball is cling to the center of paddle "1"
 
   When user presses the start button
 
-  Then release the ball from "paddle1" and move the ball
+  Then release the ball from paddle "1" and move the ball
 
 ### Scenario: to declare winner
 
