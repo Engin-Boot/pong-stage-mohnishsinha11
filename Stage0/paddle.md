@@ -6,8 +6,8 @@ This module represents the paddle class and it has following data members
 members to store the coordinates x and y
 which represents position of paddle from top and left,
 height and width of paddle
-and the 'ball_missed_counter' for the player using the paddle
-and it also consists of methods for movement of paddle in verticle direction
+and the ball miss counter for the player using the paddle
+and it also consists of method for movement of paddle in verticle direction
 and method to display the paddle
 and velocity
 
@@ -40,7 +40,7 @@ and velocity
 
   When the paddle misses the ball
 
-  Then increment the 'ball_missed_counter'
+  Then increment the ball miss counter
 
 ### Scenario: when ball hits the paddle change the direction of ball
 

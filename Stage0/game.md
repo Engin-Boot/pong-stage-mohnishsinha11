@@ -13,6 +13,6 @@ and this module declares the winner between the two players
   Given pong game is working and threshold value
 
   When ball collides with the wall
-  and 'ball_missed_count' of one player exceeds the threshold value
+  and ball miss counter of one player exceeds the threshold value
 
-  Then declare one player as the winner which have less 'ball_missed_count'
+  Then declare one player as the winner which have less ball miss counter
